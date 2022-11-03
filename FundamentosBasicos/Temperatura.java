@@ -3,13 +3,22 @@ package FundamentosBasicos;
 public class Temperatura {
 
     public static void main(String[] args) {
-        double tempFahr = 57.0;
-        double tempCels = ((tempFahr - 32) * 5) / 9;
+        final double fator = 5.0 / 9.0;
+        final double ajuste = 32;
 
-        System.out.println(tempCels);
+        double tempFahr = 57.0;
+        double tempCels = (tempFahr - ajuste) * fator;
+
+        System.out.println("O resultado é de: "+ tempCels +"ºC");
+
+        tempFahr = 86;
+        tempCels = (tempFahr - ajuste) * fator;
+
+        System.out.println("O resultado é de: "+ tempCels +"ºC");
+
     }
 }
+
 /**
  * jshell no powershell ou cmd para utilizar o interpretador Java.
- * tempCels também pode ter a seguinte operação: (tempFahr - 32) * (5.0/9.0);
  */
