@@ -6,3 +6,8 @@ public class ImprimindoNaTela {
         System.out.println("Olá, mundo!");
     }
 }
+/**
+ * Toda senteça de código termina com ;
+ * O main torna a classe executável.
+ * Crtl + space é o autocomplete.
+ */
