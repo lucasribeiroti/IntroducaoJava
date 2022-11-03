@@ -28,9 +28,9 @@ public class Inferencia {
     }
 }
 
-/**
- * var e;
- * e = 123.45; NÃO FUNCIONA!
- * Posso atribuir um número inteiro (sem ponto flutuante) em uma variável do tipo double.
- * Não posso atribuir um double (com ponto flutuante) em uma variável do tipo int de forma direta.
- */
+/*
+var e;
+e = 123.45; NÃO FUNCIONA!
+Posso atribuir um número inteiro (sem ponto flutuante) em uma variável do tipo double.
+Não posso atribuir um double (com ponto flutuante) em uma variável do tipo int de forma direta.
+*/

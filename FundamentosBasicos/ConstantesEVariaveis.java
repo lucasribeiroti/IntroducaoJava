@@ -15,7 +15,7 @@ public class ConstantesEVariaveis {
         System.out.println(area);
     }
 }
-/**
- * final: uma vez que defini o valor ele não poderá ser mudado no algorítmo.
- * Posso definir outro valor de uma mesma variável se não estiver definido como final, a exemplo de raio acima.
- */
+/*
+final: uma vez que defini o valor ele não poderá ser mudado no algorítmo.
+Posso definir outro valor de uma mesma variável se não estiver definido como final, a exemplo de raio acima.
+*/

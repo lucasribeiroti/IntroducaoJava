@@ -19,6 +19,6 @@ public class Temperatura {
     }
 }
 
-/**
- * jshell no powershell ou cmd para utilizar o interpretador Java.
- */
+/*
+jshell no powershell ou cmd para utilizar o interpretador Java.
+*/
