@@ -1,6 +1,5 @@
 package FundamentosBasicos;
 
-import javax.swing.plaf.synth.SynthTextAreaUI;
 import java.util.Scanner;
 
 public class Wrapper {
@@ -12,7 +11,7 @@ public class Wrapper {
         Byte a = Byte.parseByte("10"); // byte
         Short b = Short.parseShort("100"); // converter um valor em String para short
         Integer c = Integer.parseInt("1000"); // converter um valor em String para int
-        Long d = 10000L; // long
+        Long d = 10005L; // long
 
         System.out.println(a);
         System.out.println(b);
@@ -29,10 +28,11 @@ public class Wrapper {
         c = Integer.parseInt(entrada.next());
         d = Long.parseLong(entrada.next());
 
+
         System.out.println(a * 2);
         System.out.println(b * 2);
         System.out.println(c * 2);
-        System.out.println(d * 2);
+        System.out.println(d / 3.0);
 
         entrada.close();
     }
