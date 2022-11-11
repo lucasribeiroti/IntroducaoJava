@@ -1,16 +1,13 @@
 package FundamentosBasicos;
 
 import java.util.Scanner;
-
 public class DesafioConversao {
     /*
     Usar três valores de entrada para um salário de um funcionário em forma de String, após isso
     somar os três salários e imprimir a média (double), funcionando com a separação de casas
     decimais com vírgula ou ponto flutuante.
      */
-
     public static void main(String[] args) {
-
         Scanner entrada = new Scanner(System.in);
 
         System.out.print("Digite o primeiro salário: ");

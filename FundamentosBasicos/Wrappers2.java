@@ -1,9 +1,6 @@
 package FundamentosBasicos;
-
 public class Wrappers2 {
-
     public static void main(String[] args) {
-
         Float f = 123.0F; // float
         Double d = 125.58; // double
         Boolean bo = Boolean.parseBoolean("true"); // boolean
@@ -20,10 +17,5 @@ public class Wrappers2 {
 
         System.out.println(c.toString());
         System.out.println(c.toString().toUpperCase() + "...");
-
-
-
-
-
     }
 }

@@ -1,7 +1,5 @@
 package FundamentosBasicos;
-
 public class Temperatura {
-
     public static void main(String[] args) {
         final double fator = 5.0 / 9.0;
         final double ajuste = 32;

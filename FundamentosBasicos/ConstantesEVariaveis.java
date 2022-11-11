@@ -1,7 +1,5 @@
 package FundamentosBasicos;
-
 public class ConstantesEVariaveis {
-
     public static void main(String[] args) {
         double raio = 3.8;
         final double pi = 3.14159;

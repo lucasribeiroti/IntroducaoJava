@@ -1,11 +1,8 @@
 package FundamentosBasicos;
 
 import java.util.Scanner;
-
 public class Wrappers {
-
     public static void main(String[] args) {
-
         Scanner entrada = new Scanner(System.in);
 
         Byte a = Byte.parseByte("10"); // byte
