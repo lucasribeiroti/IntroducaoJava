@@ -5,8 +5,8 @@ public class Console {
     public static void main(String[] args) {
         System.out.print("Lucas ");
         System.out.println("Ribeiro");
-        System.out.printf("Megasena: %d, %d, %d, %d, %d, %d%n", 1, 2, 3, 4, 5, 6);
-        System.out.printf("Salário: %.2f%n", 1234.5678);
+        System.out.printf("Megasena: %d, %d, %d, %d, %d, %d %n", 1, 2, 3, 4, 5, 6);
+        System.out.printf("Salário: %.2f %n", 1234.5678);
 
         Scanner entrada = new Scanner(System.in); // monitora o que vou digitar.
         System.out.print("Digite o seu nome: ");

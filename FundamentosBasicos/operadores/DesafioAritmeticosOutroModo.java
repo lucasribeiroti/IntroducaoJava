@@ -1,4 +1,4 @@
-package FundamentosBasicos;
+package FundamentosBasicos.operadores;
 
 public class DesafioAritmeticosOutroModo {
 

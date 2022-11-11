@@ -1,5 +1,7 @@
 package FundamentosBasicos;
+
 public class ConversaoTiposPrimitivos {
+
     public static void main(String[] args) {
         double d = 1; // implícita
         System.out.println(d);

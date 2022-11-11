@@ -1,6 +1,7 @@
 package FundamentosBasicos;
 
 import java.util.Scanner;
+
 public class DesafioConversao {
     /*
     Usar três valores de entrada para um salário de um funcionário em forma de String, após isso
