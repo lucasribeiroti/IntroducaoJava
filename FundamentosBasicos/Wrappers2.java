@@ -1,6 +1,6 @@
 package FundamentosBasicos;
 
-public class Wrapper2 {
+public class Wrappers2 {
 
     public static void main(String[] args) {
 
