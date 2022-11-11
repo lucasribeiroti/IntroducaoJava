@@ -11,12 +11,12 @@ public class ConversaoTiposPrimitivos {
         System.out.println(f);
 
         int i = 127; // o byte suporta até o valor 127!
-        byte b = (byte) i; // conversão explícita.
+        byte b = (byte) i; // conversão explícita (CAST).
         System.out.println(b);
 
         double e = 1.99980;
         int y = (int) e;
-        System.out.println(y); // imprime o valor sem casa decimal.
+        System.out.println(y); // conversão explícita (CAST), imprime o valor sem casa decimal.
     }
 }
 /*
