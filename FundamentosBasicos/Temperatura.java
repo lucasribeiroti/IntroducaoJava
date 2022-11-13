@@ -4,7 +4,7 @@ public class Temperatura {
 
     public static void main(String[] args) {
         final double fator = 5.0 / 9.0;
-        final double ajuste = 32;
+        final double ajuste = 32.0;
 
         double tempFahr = 57.0;
         double tempCels = (tempFahr - ajuste) * fator;
