@@ -1,6 +1,6 @@
 package FundamentosBasicos;
 
-import javax.swing.*;
+// import javax.swing.*;
 import java.util.Date;
 
 public class Import {
@@ -16,6 +16,6 @@ public class Import {
         Date d = new Date();
         System.out.println(d);
 
-        JButton botao = new JButton();
+        // JButton botao = new JButton();
     }
 }
