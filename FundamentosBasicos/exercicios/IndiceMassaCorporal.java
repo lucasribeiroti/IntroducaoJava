@@ -10,12 +10,12 @@ public class IndiceMassaCorporal {
         Scanner entrada = new Scanner(System.in);
 
         System.out.print("Informe o peso: ");
-        int peso = entrada.nextInt();
+        double peso = entrada.nextInt();
 
         System.out.print("Informe a altura em cm: ");
-        int altura = entrada.nextInt();
+        double altura = entrada.nextInt();
 
-        double imc = peso / (Math.pow(altura, 2) * 3);
+        double imc = peso / (Math.pow(altura, 2));
 
         System.out.printf("O índice de massa corporal é de: %f", imc);
 
