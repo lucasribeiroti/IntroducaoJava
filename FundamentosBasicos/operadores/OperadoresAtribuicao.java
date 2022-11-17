@@ -4,10 +4,10 @@ public class OperadoresAtribuicao {
 
     public static void main(String[] args) {
         int a = 3; // a vale 3
-        int b = a; // b vale 3
-        int c = a + b; // c vale 6
+        int b = a + 1; // b vale 4
+        int c = a + b; // c vale 7
 
-        c++; // 6 + 3 (+ 1)
+        c++; // 4 + 3 (+ 1)
         System.out.println(c);
     }
 }
